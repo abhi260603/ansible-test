@@ -21,3 +21,10 @@
       owner: abhi
       group: abhi
       mode: 0644
+
+  - name: edit file
+    tags: edit file
+    lineinfile:
+      path: /home/abhi/testfile
+      regexp: '^hello'
+      line: I am edited by ansible
