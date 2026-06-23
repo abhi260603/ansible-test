@@ -1,0 +1,5 @@
+- name: edit file
+  lineinfile:
+    path: /home/simone/testfile
+    regexp: '^hello'
+    line: I am edited by ansible
